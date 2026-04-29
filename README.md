@@ -86,7 +86,7 @@ COUNT(*) AS total,
 ROUND(SUM(Exited) * 100.0 / COUNT(*), 2) AS churn_rate
 FROM Churn_Modelling
 GROUP BY Geography
-ORDER BY churn_rate DESC;
+ORDER BY churnrate DESC;
 Query 3 — Active vs Inactive churn:
 SELECT
 CASE WHEN IsActiveMember = 1 THEN 'Active' ELSE 'Inactive' END AS member_status,
