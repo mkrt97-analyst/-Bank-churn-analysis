@@ -62,7 +62,7 @@ What I did:
 Opened the dataset and explored 10,000 rows
 Used 
 AVERAGE(Exited)*100 formula to calculate overall churn rate → 20.37%
-Created Pivot Tables to find churn rate by Country and Age Group
+Created Pivot Tables to find churn rate by Country 
 Made bar charts from pivot tables
 Key finding from Excel:
 Germany churn rate (~32%) was double France and Spain (~16%) — spotted before writing
